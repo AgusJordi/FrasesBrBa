@@ -18,7 +18,7 @@ const Boton = styled.button`
   padding: 1rem 3rem;
   font-size: 2rem;
   border: 2px solid black;
-  transition: background-size .6s ease;
+  transition: background-size .5s ease;
 
   :hover {
     cursor: pointer;
@@ -44,8 +44,6 @@ function App() {
   useEffect(() => {
     consultaAPI();
   }, []);
-
-
 
   return (
     <Contenedor>

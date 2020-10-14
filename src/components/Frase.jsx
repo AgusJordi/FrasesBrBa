@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 
 const ContenedorFrase = styled.div `
     padding: 3rem;
-    border-radius: .5rem;
+    border-radius: .4rem;
     background-color: #a5d6a7;
     max-width: 800px;
 
